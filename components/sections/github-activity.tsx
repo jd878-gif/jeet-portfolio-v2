@@ -13,6 +13,7 @@ type Repo = {
   html_url: string;
   stargazers_count: number;
   forks_count: number;
+  fork: boolean;
   language: string | null;
 };
 
